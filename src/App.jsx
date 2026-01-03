@@ -7,7 +7,7 @@ import LoginPopup from "./components/LoginPopup/LoginPopup";
 
 import Home from "./pages/Home/Home";
 import Cart from "./pages/Cart/Cart";
-import Placeorder from "./pages/Placeorder/Placeorder";
+import Placeorder from './pages/Placeorder/Placeorder';
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
