@@ -7,7 +7,7 @@ import LoginPopup from "./components/LoginPopup/LoginPopup";
 
 import Home from "./pages/Home/Home";
 import Cart from "./pages/Cart/Cart";
-import PlaceOrder from "./pages/placeorder/Placeorder";
+import PlaceOrder from "./pages/PlaceOrder/placeOrder";
 
 
 
