@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import './Placeorder.css'
+import './Placeorder.css';
 
 import { StoreContext } from '../../Context/StoreContext';
 
@@ -12,7 +12,6 @@ const Placeorder = () => {
 
   return (
     <form className="place-order" onSubmit={handleSubmit}>
-      
       <div className="place-order-left">
         <p className="title">Delivery Information</p>
 
@@ -37,7 +36,6 @@ const Placeorder = () => {
         <input type="text" placeholder="Phone" />
       </div>
 
-      
       <div className="place-order-right">
         <div className="cart-total">
           <h2>Cart Total</h2>
@@ -59,10 +57,7 @@ const Placeorder = () => {
           <div className="cart-total-details">
             <b>Total</b>
             <b>
-              $
-              {getTotalCartAmount() === 0
-                ? 0
-                : getTotalCartAmount() + 2}
+              ${getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 2}
             </b>
           </div>
 
@@ -73,6 +68,4 @@ const Placeorder = () => {
   );
 };
 
-
 export default Placeorder;
-
